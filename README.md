@@ -1,6 +1,6 @@
 # branch-predictor-simulator
 
-## 📌 Overview
+##  Overview
 This repository contains the implementation and evaluation of various **branch predictors** using the [Intel PIN Tool](https://software.intel.com/content/www/us/en/develop/articles/pin-a-dynamic-binary-instrumentation-tool.html) and the [PARSEC Benchmark Suite](https://github.com/bamos/parsec-benchmark).
 
 The goal of this project is to **implement, run, and compare** different branch prediction strategies by measuring their accuracy in terms of **MPKI** (Mispredictions Per 1000 Instructions) across multiple benchmarks.
@@ -25,10 +25,15 @@ The **Intel PIN Tool** is a dynamic binary instrumentation framework that allows
 - Collect statistics on prediction accuracy
 
 ### PARSEC Benchmark Suite
-[PARSEC](https://parsec.cs.princeton.edu/) is a collection of realistic multithreaded applications used for architectural and systems research.  
+PARSEC is a collection of realistic multithreaded applications used for architectural and systems research.  
 Each benchmark was run with the **simlarge** input set to provide enough instruction counts for meaningful MPKI measurements.
 
 ---
 
 ## 📂 Repository Structure
+---
 
+## 📦 Requirements
+- **Intel PIN Tool** (tested with version 3.31)
+- **PARSEC Benchmark Suite** (tested with PARSEC 3.0)
+- **Python 3.8+**
