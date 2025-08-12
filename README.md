@@ -67,7 +67,7 @@ Benchmarks used from the PARSEC suite:
 blackscholes, bodytrack, canneal, ferret, fluidanimate,
 freqmine, rtview, streamcluster, swaptions
 
-The execution commands for **simlarge** inputs are stored in [`cmds_simlarge.txt`](./branch-predictor-simulator/scripts/cmds_simlarge.txt).
+The execution commands for **simlarge** inputs are stored in [`cmds_simlarge.txt`](./scripts/cmds_simlarge.txt).
 
 ---
 
