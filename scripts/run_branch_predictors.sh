@@ -7,18 +7,18 @@
 ## CAUTION: use only absolute paths below!!!
 
 # CHANGE THIS PATH TO YOUR COMPILED PIN TOOL
-PIN_TOOL=/home/panos/architecture2/ex2/pintool/obj-intel64/branch.so
+PIN_TOOL=/pintool/obj-intel64/branch.so
 
 # CHANGE THESE ONLY IF YOU HAVE YOUR OWN INSTALLATION
-PARSEC_PATH=/home/panos/architecture2/parsec-3.0
-PIN_EXE=/home/panos/architecture2/pin-external-3.31-98869-gfa6f126a8-gcc-linux/pin
+PARSEC_PATH=/parsec-3.0
+PIN_EXE=/pin-external-3.31-98869-gfa6f126a8-gcc-linux/pin
 
 # These are relative paths (must be in the workpace dir)
 outDir="./branchPredOutputs"
-CMDS_FILE=/home/panos/architecture2/ex2/parsec-3.0/cmds_simlarge.txt
+CMDS_FILE=/parsec-3.0/cmds_simlarge.txt
 
 
-export LD_LIBRARY_PATH=/home/panos/architecture2/ex2/parsec-3.0/pkgs/libs/hooks/inst/amd64-linux.gcc/lib
+export LD_LIBRARY_PATH=/parsec-3.0/pkgs/libs/hooks/inst/amd64-linux.gcc/lib
 
 mkdir -p $outDir
 
