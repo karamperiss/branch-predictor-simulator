@@ -26,7 +26,7 @@ The main goal was to:
 
 ## 🔍 Technical Details
 
-### ⚡ Gshare
+###  Gshare
 The **Gshare** predictor combines **global branch history** with the branch’s **program counter (PC)** to reduce Pattern History Table collisions.
 
 **How it works:**
@@ -41,7 +41,7 @@ The **Gshare** predictor combines **global branch history** with the branch’s 
 
 ---
 
-### 🗂 BTB + RAS
+###  BTB + RAS
 The **Branch Target Buffer (BTB)** predicts the **target address** of taken branches, while the **Return Address Stack (RAS)** improves prediction of `ret` instructions.
 
 **Structure:**
@@ -63,3 +63,18 @@ The **Branch Target Buffer (BTB)** predicts the **target address** of taken bran
 ## 📊 Benchmarking
 
 Benchmarks used from the PARSEC suite:
+
+blackscholes, bodytrack, canneal, ferret, fluidanimate,
+freqmine, rtview, streamcluster, swaptions
+
+The execution commands for **simlarge** inputs are stored in [`cmds_simlarge.txt`](./cmds_simlarge.txt).
+
+---
+
+## 📈 Results Visualization
+
+We use custom Python scripts to parse `.bp.out` files and generate **MPKI plots** for each predictor and benchmark.
+
+Example:
+```bash
+python3 plot_summary_mpki.py ./branchPredOutputs/
