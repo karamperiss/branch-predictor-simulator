@@ -67,14 +67,15 @@ Benchmarks used from the PARSEC suite:
 blackscholes, bodytrack, canneal, ferret, fluidanimate,
 freqmine, rtview, streamcluster, swaptions
 
-The execution commands for **simlarge** inputs are stored in [`cmds_simlarge.txt`](./cmds_simlarge.txt).
+The execution commands for **simlarge** inputs are stored in [`cmds_simlarge.txt`](./branch-predictor-simulator/scripts/cmds_simlarge.txt).
 
 ---
 
 ## 📈 Results Visualization
 
-We use custom Python scripts to parse `.bp.out` files and generate **MPKI plots** for each predictor and benchmark.
+Ι use custom Python scripts to parse `.bp.out` files and generate **MPKI plots** for each predictor and benchmark.
 
 Example:
 ```bash
 python3 plot_summary_mpki.py ./branchPredOutputs/
+
