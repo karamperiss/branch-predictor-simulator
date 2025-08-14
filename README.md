@@ -79,7 +79,3 @@ Example:
 ```bash
 python3 plot_summary_mpki.py ./branchPredOutputs/
 
----
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
