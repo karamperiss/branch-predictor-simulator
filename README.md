@@ -10,7 +10,7 @@ The main goal was to:
 
 ---
 
-## 🧩 Implemented Predictors
+##  Implemented Predictors
 
 | Predictor Name          | Type      | Description |
 |------------------------|-----------|-------------|
