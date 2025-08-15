@@ -24,7 +24,7 @@ The main goal was to:
 
 ---
 
-## 🔍 Technical Details
+##  Technical Details
 
 ###  Gshare
 The **Gshare** predictor combines **global branch history** with the branch’s **program counter (PC)** to reduce Pattern History Table collisions.
@@ -60,7 +60,7 @@ The **Branch Target Buffer (BTB)** predicts the **target address** of taken bran
 
 ---
 
-## 📊 Benchmarking
+##  Benchmarking
 
 Benchmarks used from the PARSEC suite:
 
@@ -71,7 +71,7 @@ The execution commands for **simlarge** inputs are stored in [`cmds_simlarge.txt
 
 ---
 
-## 📈 Results Visualization
+##  Results Visualization
 
 Ι use custom Python scripts to parse `.bp.out` files and generate **MPKI plots** for each predictor and benchmark.
 
