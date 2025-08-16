@@ -80,5 +80,5 @@ Example:
 python3 plot_summary_mpki.py ./branchPredOutputs/
 ```
 ---
-## 📜 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
