@@ -12,7 +12,7 @@ The main goal was to:
 
 ##  Implemented Predictors
 
-| Predictor Name          | Type      | Description |
+| Predictor              | Type      | Description |
 |------------------------|-----------|-------------|
 | **Static-NotTaken**    | Static    | Always predicts branch as **not taken**. |
 | **Static-BTFNT**       | Static    | Predicts *backward* branches as **taken** and *forward* branches as **not taken**. |
